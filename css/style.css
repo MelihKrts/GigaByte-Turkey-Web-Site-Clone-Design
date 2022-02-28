@@ -1,0 +1,596 @@
+*
+{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+img
+{
+	width: 100%;
+	height: auto;
+}
+.SiteHead
+{
+	position: relative;
+	width: 100%;
+}
+.SiteHeadArea
+{
+	width: 100%;
+	background-image: url(../img/headerbackground_black.png);
+	background-size: 1px 101%;
+	background-repeat: repeat;
+	height: 45px;
+	position: absolute;
+	z-index: 1;
+}
+.HeadContainer
+{
+	max-width: 100%;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	height: 45px;
+	justify-content: space-between;
+}
+.HeadLogo
+{
+	width: 15%;
+}
+.HeadLogo img 
+{
+	width: 100%;
+}
+.HeadLinkListArea li 
+{
+	font-family: 'Lato','Play', sans-serif,"微軟正黑體",Microsoft JhengHei,"微軟雅黑體",Microsoft YaHei,SimHei,"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","新細明體", Arial,Verdana,Helvetica,sans-serif;
+	display: inline-block;
+	margin: 0 1.5%;
+	color: #ffffff;
+	opacity: 0.8;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.HeadLinkListArea
+{
+	width: 35%;
+}
+.HeadLinkListArea ul 
+{
+	list-style: none;
+}
+.HeadIconsArea
+{
+	width: 25%;
+	height: 45px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.HeadImage
+{
+	width: 100%;
+}
+.HeadImage img 
+{
+	width: 100%;
+}
+.HeadIcon
+{
+	padding: 0 0 0 30px;
+}
+.HeadIcon img 
+{
+	width: auto;
+	height: 16px;
+	border: none;
+}
+.ContentArea
+{
+	width: 100%;
+}
+.ContentContainer
+{
+	width: 100%;
+	position: relative;
+}
+.Content-Direction
+{
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	z-index: 20;
+	color: #969696;
+}
+.slick-prev
+{
+	position: absolute !important;
+	cursor: pointer !important;
+	color: #ffffff !important;
+	width: 35px !important;
+	height: 48px !important;
+	background-color: #000000 !important;
+	opacity: 0.2 !important;
+	left: 0 !important;
+	z-index: 2!important;
+	background-image: url(../img/LeftArrowIcon_white.png) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: 100% auto !important;
+	display: none !important;
+	border-radius: 0% !important;
+}
+.ContentImg
+{
+	width: 100%;
+}
+.slick-prev  img 
+{
+	width: 100%;
+}
+
+.ContentContainer .slick-next:before
+{
+	content: "";
+}
+.ContentContainer .slick-prev:before
+{
+	content: "" !important;
+}
+
+.slick-next  img 
+{
+	width: 100%;
+}
+.slick-prev img 
+{
+	width: 100%;
+}
+.slick-next
+{
+	position: absolute !important;
+	cursor: pointer !important;
+	color: #ffffff !important;
+	width: 35px !important;
+	height: 58px !important;
+	background-color: #000000 !important;
+	opacity: 0.2;
+	background-image: url(../img/RightArrowIcon_white.png) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: 100% auto !important;
+	right: 0 !important;
+	display: none !important;
+	border-radius: 0% !important;
+}
+.ContentContainer:hover .slick-arrow
+{
+	display: block !important;
+}
+
+li.slick-active button {
+	background-color: #00A1E9 !important;
+}
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 1rem 0;
+	list-style-type: none;
+}
+
+li {
+	margin: 0 0.25rem;
+}
+
+button {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	padding: 0;
+	border: none;
+	border-radius: 100%;
+	background-color: orange !important;
+	text-indent: -9999px;
+}
+.slick-dots
+{
+	bottom: 5px !important;
+}
+.BannerArea
+{
+	width: 100%;
+	margin-top: -30px;
+}
+.BannerContainer
+{
+	max-width: 100%;
+	display: flex;
+	border-collapse: collapse;
+	border: 2px solid #ffffff;
+	border-left: none;
+	border-right: none;
+}
+
+.BannerFirst
+{
+	width: 50%;
+	border: 2px solid #ffffff;
+	border-left: none;
+}
+.BannerSecond
+{
+	width: 50%;
+	border: 2px solid #ffffff;
+}
+
+.video-setting
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.BannerSecond img 
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+.MiniSliderArea
+{
+	width: 100%;
+}
+.MiniSliderContainer
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.MiniSlider
+{
+	width: 10%;
+}
+.MiniSlider img 
+{
+	width: 100%;
+	height: 100%;
+}
+.MiniSliderContainer > .slick-prev
+{
+	position: absolute !important;
+	cursor: pointer !important;
+	color: #ffffff !important;
+	width: 35px !important;
+	height: 48px !important;
+	background-color: #000000 !important;
+	opacity: 0.2 !important;
+	left: 0 !important;
+	z-index: 2!important;
+	background-image: url(../img/LeftArrowIcon_white.png) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: 100% auto !important;
+	border-radius: 0% !important;
+}
+.MiniSliderContainer >  .slick-arrow {
+	color: #09529b !important;
+	display: block !important;
+}
+.MiniSliderContainer  .slick-list {
+	margin: 0 1px;
+}
+.MiniSliderContainer  .slick-slide
+{
+	margin: 0 10px !important;
+}
+.BannerMiniArea
+{
+	display: flex;
+	width: 32%;
+	flex-direction: column;
+	height: 100%;
+	border: 2px solid #ffffff;
+	border-left: none;
+}
+.BannerMini
+{
+	width: 100%;
+	height: 100%;
+}
+.BannerBigArea
+{
+	width: 68%;
+	height: 100%;
+	border: 2px solid #ffffff;
+}
+.BannerBig
+{
+	width: 100%;
+	height: 100%;
+}
+.SiteEndArea
+{
+	width: 100%;
+}
+.SiteEndContainer
+{
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+.SiteEndFirstArea
+{
+	width: 75%;
+	font-family: Lato;
+	display: flex;
+	flex-direction: row;
+}
+
+.FirstLink
+{
+	width: 16%;
+	margin: 15px 25px;
+}
+.FirstLink ul 
+{
+	list-style: none;
+	margin: 10px 0px;
+}
+.list-title
+{
+	font-size: 1.38em;
+	font-weight: bold;
+	color: #666666;
+}
+.FirstLink li 
+{
+	margin: 5px 0px;
+	text-align: left;
+}
+.list-style
+{
+	font-size: 0.9em;
+}
+.SiteEndSecondArea
+{
+	width: 25%;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	padding-top: 25px;
+	justify-content: center;
+}
+.SocialBtn
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid #666666;
+	position: relative;
+	margin-left: 15px;
+}
+.SocialBtn img 
+{
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.FooterEndArea
+{
+	width: 100%;
+	margin-top: 50px;
+}
+.FooterEndAreaContainer
+{
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	margin: 0 auto;
+}
+.FooterEndFirstBox
+{
+	width: 14%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-weight: bold;
+	font-family: 'Arial',"微軟正黑體",Microsoft JhengHei,"微軟雅黑體",Microsoft YaHei,SimHei, "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","新細明體", Arial,Verdana,Helvetica,sans-serif;
+	position: relative;
+	margin-left: 5px;
+}
+
+.FooterEndFirstImgBox
+{
+	opacity: 0.5;
+	max-width: 24px;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
+.FooterEndFirstImgBox img 
+{
+	width: 100%;
+	height: 100%;
+}
+.FooterEndFirstBox span 
+{
+	margin-left: 5px;
+	margin-top: 0px;
+	color: #666666;
+}
+.FooterEndSecondBox
+{
+	display: flex;
+	width: 79%;
+	justify-content: flex-end;
+}
+.copyright
+{
+	font-weight: bold;
+	font-size: 80%;
+	color: #666666;
+	font-family: 微軟正黑體, "Microsoft JhengHei", 微軟雅黑體, "Microsoft YaHei", SimHei, メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 新細明體, Arial, Verdana, Helvetica, sans-serif !important;
+}
+.policy
+{
+	margin-left: 0.5em;
+	margin-top: 0.3em;
+	font-size: 60%;
+	font-family: 微軟正黑體, "Microsoft JhengHei", 微軟雅黑體, "Microsoft YaHei", SimHei, メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 新細明體, Arial, Verdana, Helvetica, sans-serif !important;
+}
+@media only screen and (max-width: 970px)
+{
+	.BannerContainer{
+		flex-direction: column;
+	}
+	.BannerFirst
+	{
+		width: 100%;
+		border-right: none;
+	}
+	.BannerSecond
+	{
+		width: 100%;
+		border-left: none;
+		border-right: none;
+	}
+	.BannerMiniArea
+	{
+		width: 100%;
+	}
+	.BannerBigArea
+	{
+		width: 100%;
+		border-left: none;
+	}
+	.SiteHeadArea
+	{
+		position: fixed;
+	}
+	.HeadLinkListArea 
+	{
+		display: none;
+	}
+	.HeadImage
+	{
+		display: none;
+	}
+	.language
+	{
+		display: none;
+	}
+	.center
+	{
+		display: none;
+	}
+	.HeadLogo {
+		width: 35%;
+	}
+	.HeadIconsArea {
+		width: 60%;
+		justify-content: flex-end;
+	}
+
+	.HeadContainer
+	{
+		justify-content: center;
+	}
+
+	.HeadLogo img {
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.SiteEndSecondArea 
+	{
+		display: none;
+	}
+
+	.SiteEndFirstArea {
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.list-style
+	{
+		display: none;
+	}
+	.FirstLink {
+		width: 100%;
+		text-align: center;
+		margin: 0px 25px;
+	}
+
+	.FirstLink li {
+		text-align: center;
+	}
+
+	.list-title {
+		font-size: 1.13em;
+	}
+	.FirstLink:nth-child(1)
+	{
+		margin-top: 40px;
+	}
+
+	.FooterEndAreaContainer {
+		width: 100%;
+		max-width: 1200px;
+		display: flex;
+		margin: 0 auto;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.FooterEndFirstBox {
+		width: 20%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		font-weight: bold;
+		font-family: 'Arial',"微軟正黑體",Microsoft JhengHei,"微軟雅黑體",Microsoft YaHei,SimHei, "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","新細明體", Arial,Verdana,Helvetica,sans-serif;
+		position: relative;
+		margin-left: 5px;
+	}
+
+	.FooterEndFirstImgBox img {
+		width: 100%;
+		height: auto;	
+	}
+	.policy
+	{
+		display: none;
+	}
+
+	.FooterEndSecondBox {
+		display: flex;
+		width: 92%;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+	.copyright
+	{
+		margin-bottom: 50px;
+	}
+
+}
