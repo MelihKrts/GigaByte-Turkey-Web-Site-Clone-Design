@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GIGABYTE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js" integrity="sha512-3fMsI1vtU2e/tVxZORSEeuMhXnT9By80xlmXlsOku7hNwZSHJjwcOBpmy+uu+fyWwGCLkMvdVbHkeoXdAzBv+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+</head>
+<body>
+	<section class="SiteHead">
+		<header class="SiteHeadArea">
+			<nav class="HeadContainer">
+
+				<div class="HeadLogo">
+					<img src="img/Gigabyte_white.png" alt="">
+				</div>
+
+				<div class="HeadLinkListArea">
+					<ul>
+						<li>Ürünler</li>
+						<li>Service</li>
+						<li>Insight</li>
+						<li>Haberler</li>
+						<li>Satın Al</li>
+					</ul>
+				</div>
+
+				<div class="HeadIconsArea">
+					<div class="HeadImage">
+						<img src="img/aorus-logo.png" alt="">
+					</div>
+
+					<div class="HeadIcon language">
+						<img src="img/LanguageIcon_white.png" alt="">
+					</div>
+
+					<div class="HeadIcon center">
+						<img src="img/MemberCenter_white.png" alt="">
+					</div>
+
+					<div class="HeadIcon search">
+						<img src="img/SearchIcon_white.png" alt="">
+					</div>
+
+				</div>
+
+			</nav>
+		</header>
+	</section>
+
+
+	<section class="ContentArea">
+		<div class="ContentContainer">
+
+			<div class="ContentImg">
+				<img src="img/slider1.png" alt="">
+			</div>
+
+			<div class="ContentImg">
+				<img src="img/slider2.png" alt="">
+			</div>
+
+			<div class="ContentImg">
+				<img src="img/slider3.png" alt="">
+			</div>
+
+			<div class="ContentImg">
+				<img src="img/slider4.png" alt="">
+			</div>
+
+			<div class="ContentImg">
+				<img src="img/slider5.png" alt="">
+			</div>
+
+	<!---		<div class="Content-Direction">
+
+				<div class="Content-prev">
+					<img src="img/LeftArrowIcon_white.png" alt="" class="prev-arrow">
+				</div>
+
+				<div class="Content-next">
+					<img src="img/RightArrowIcon_white.png" alt="">
+				</div>
+
+			</div>
+		-->
+
+	</div>
+</section>
+
+
+
+<script type="text/javascript">
+	$('.ContentContainer').slick({
+		dots: true,
+		arrows:true,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 1,
+
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    ]
+});
+</script>
+
+<section class="BannerArea">
+	<div class="BannerContainer">
+		<div class="BannerFirst">
+			<video class="video-setting" src="img/banner.mp4" loop autoplay muted>
+				
+			</video>
+		</div>
+		<div class="BannerSecond">
+			<img src="img/bannerimg.png" alt="">
+		</div>
+	</div>
+</section>
+
+<section class="MiniSliderArea">
+	<div class="MiniSliderContainer">
+		<div class="MiniSlider">
+			<img src="img/minislider1.jpg" alt="">
+		</div>
+		<div class="MiniSlider">
+			<img src="img/minislider2.jpg" alt="">
+		</div>
+		<div class="MiniSlider">
+			<img src="img/minislider3.jpg" alt="">
+		</div>
+		<div class="MiniSlider">
+			<img src="img/minislider4.jpg" alt="">
+		</div>
+		<div class="MiniSlider">
+			<img src="img/minislider5.jpg" alt="">
+		</div>
+		<div class="MiniSlider">
+			<img src="img/minislider6.jpg" alt="">
+		</div>
+		<div class="MiniSlider">
+			<img src="img/minislider7.jpg" alt="">
+		</div>
+		<div class="MiniSlider">
+			<img src="img/minislider8.jpg" alt="">
+		</div>
+		<div class="MiniSlider">
+			<img src="img/minislider9.jpg" alt="">
+		</div>
+		<div class="MiniSlider">
+			<img src="img/minislider10.jpg" alt="">
+		</div>
+	</div>
+</section>
+
+
+<script type="text/javascript">
+	$('.MiniSliderContainer').slick({
+		dots: true,
+		arrows:true,
+		infinite: true,
+		speed: 950,
+		cssEase: 'ease',
+		slidesToShow: 5,
+		slidesToScroll: 5,
+		responsive: [
+		{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 3
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 3
+			}
+		}
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    ]
+});
+</script>
+
+
+<section class="BannerArea">
+	<div class="BannerContainer">
+		<div class="BannerFirst">
+			<img src="img/bannerimg3.png" alt="">
+		</div>
+		<div class="BannerSecond">
+			<img src="img/bannerimg2.png" alt="">
+		</div>
+	</div>
+</section>
+
+<section class="BannerArea">
+	<div class="BannerContainer">
+		<div class="BannerMiniArea">
+
+			<div class="BannerMini">
+				<img src="img/bannermini.png" alt="">
+			</div>
+
+			<div class="BannerMini">
+				<img src="img/bannermini2.png" alt="">
+			</div>
+		</div>
+		<div class="BannerBigArea">
+			<div class="BannerBig">
+				<img src="img/bannerbig.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="SiteEndArea">
+	<div class="SiteEndContainer">
+		<div class="SiteEndFirstArea">
+
+			<div class="FirstLink">
+				<ul>
+					<li class="list-title">Hakkımızda</li>
+					<li class="list-style">Kariyer & Bize Ulaşın</li>
+					<li class="list-style">Yatırımcılar</li>
+					<li class="list-style">CSR</li>
+				</ul>
+			</div>
+
+			<div class="FirstLink">
+				<ul>
+					<li class="list-title">Basın Merkezi</li>
+					<li class="list-style">Haberler</li>
+					<li class="list-style">Ödüller</li>
+					
+				</ul>
+			</div>
+
+			<div class="FirstLink">
+				<ul>
+					<li class="list-title">Destek</li>
+					<li class="list-style">FAQ</li>
+					<li class="list-style">Çevrimiçi Destek</li>
+					<li class="list-style">Garanti</li>
+				</ul>
+			</div>
+
+			<div class="FirstLink">
+				<ul>
+					<li class="list-title">Bize Ulaşın</li>
+					<li class="list-style">Bayi Merkezi</li>
+					<li class="list-style">CSR</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="SiteEndSecondArea">
+
+			<div class="SocialBtn">
+				<img src="img/fb_icon_footer.png" alt="">
+			</div>
+
+			<div class="SocialBtn">
+				<img src="img/youtube_icon_footer.png" alt="">
+			</div>
+
+			<div class="SocialBtn">
+				<img src="img/ig_icon_footer.png" alt="">
+			</div>
+
+		</div>
+
+
+	</div>
+
+	<div class="FooterEndArea">
+		<div class="FooterEndAreaContainer">
+
+			<div class="FooterEndFirstBox">
+				<div class="FooterEndFirstImgBox">
+					<img src="img/LanguageIcon_black.png" alt="">
+				</div>
+
+				<span>Turkey (Türkiye)</span>
+			</div>
+
+			<div class="FooterEndSecondBox">
+				<span class="copyright">
+©2022 GIGA-BYTE Technology Co., Ltd. Tüm hakları saklıdır. 2018. GIGABYTE TÜRKİYE müşteri hizmetleri +90 212 288 52 96</span>
+<span class="policy">|</span><span class="policy">Kullanım Şartları</span>
+<span class="policy">|</span><span class="policy">Gizlilik Politikası</span>
+			</div>
+
+		</div>
+	</div>
+
+</footer>
+
+</body>
+</html>
